@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Circular;
+    src: url('CircularStd-Book.otf');
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Circular;
+}
+
+.cabecalho{
+    background-color: rgb(102, 102, 102);
+    height: 6vw;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-right: 10vw;
+}
+
+li{
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    margin: 15px;
+}
+
+.containerfundo{
+}
+
+.fundo{
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+    height: 100vh;
+}
+
+.imgfundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("fundo.svg");
+    height: 100vh;
+    background-size: 220% 220%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linha1{
+
+}
+
+.linha{
+
+}
+
+
+p{
+    margin: 9px 0 18px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+h1{
+    margin: 0 0 16px 0;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    color: white;
+    
+}
+
+.footer{
+    display: flex;
+    padding: 80px 0 50px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+.itens{
+    margin: 0 50px;
+    display: flex;
+}
+
+.logo{
+    padding: 0 15px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.opcoes{
+    padding: 0 15px;
+    width: 700px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+}
+
+.opcoes p{
+    font-size: 16px;
+}
+
+.redes{
+    padding: 0 15px;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: block;
+}
+
+.brasil{
+    margin-top: 10px;
+    padding: 0 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    align-items: flex-end;
+}
+
+.brasil p{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.info{
+    margin-top: 10px;
+    padding: 0 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+}
+
+#cl1{
+    width: 100%;
+    display: block;
+}
+#cl2{
+    width: 100%;
+    display: block;
+
+}
+#cl3{
+    width: 100%;
+    display: block;
+}
+
+li:hover{
+    color:  #1DB954;
+}
+
+p:hover{
+    color:  #1DB954;
+}
+
+.icon{
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.icon:hover{
+    background-color:  #1DB954;
+}
+
+.informacoes{
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #919496;
+    font-size: 12px;
+}
+
+.informacoes a{
+    padding: 10px 0;
+    margin: 10px;
+    color: white;
+}
+
+a:hover{
+    color:  #1DB954;
+}
+
+h4{
+    color: #919496;
+}
+
+#primeira{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#segunda{
+    width: 100%;
+    height: 50%;
+
+}
+
+#segunda p{
+    font-size: 12px;
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+}
+
